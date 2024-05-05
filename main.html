@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Game</title>
+     <link rel="shortcut icon" href="/assets/images/rock-paper-scissors.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main>
+        <div id="notice"></div>
+        <div class="fist">
+            <img id="fist1" class="hand" src="/assets/images/left-fist.png" alt="">
+            <img id="fist2" class="hand" src="/assets/images/right-fist.png" alt="">
+        </div>
+        <div class="your_options">
+            <img id="option1" class="option" onclick="user_option('rock')" src="/assets/images/left-rock.png" alt="">
+            <img id="option2" class="option" onclick="user_option('paper')" src="/assets/images/left-paper.png" alt="">
+            <img id="option3" class="option" onclick="user_option('scissor')" src="/assets/images/left-scissors.png" alt="">
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
