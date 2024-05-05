@@ -18,10 +18,10 @@ let user_option = (option)=>{
             left_side.style.animation = 'ani1 0.5s 5 alternate ease-out';
             right_side.style.animation = 'ani2 0.5s 5 alternate ease-out';
             setTimeout(() => {
-                left_side.src = '/assets/images/left-rock.png';
+                left_side.src = 'assets/images/left-rock.png';
                 left_side.style.left = '100px';
                 left_side.style.top = '100px';
-                right_side.src = '/assets/images/right-paper.png';
+                right_side.src = 'assets/images/right-paper.png';
                 right_side.style.right = '100px';
                 right_side.style.top = '100px';
 
@@ -30,10 +30,10 @@ let user_option = (option)=>{
                     notice.innerHTML = `You Lose`;
                     setTimeout(() => {
                         notice.style.visibility = "hidden";
-                        left_side.src = '/assets/images/left-fist.png'
+                        left_side.src = 'assets/images/left-fist.png'
                         left_side.style.left = '0px';
                         left_side.style.top = '0px';
-                        right_side.src = '/assets/images/right-fist.png'
+                        right_side.src = 'assets/images/right-fist.png'
                         right_side.style.right = '0px';
                         right_side.style.top = '0px';
                         left_side.style.removeProperty('animation');
@@ -48,10 +48,10 @@ let user_option = (option)=>{
             left_side.style.animation = 'ani1 0.5s 5 alternate ease-out';
             right_side.style.animation = 'ani2 0.5s 5 alternate ease-out';
             setTimeout(() => {
-                left_side.src = '/assets/images/left-rock.png';
+                left_side.src = 'assets/images/left-rock.png';
                 left_side.style.left = '100px';
                 left_side.style.top = '100px';
-                right_side.src = '/assets/images/right-scissors.png';
+                right_side.src = 'assets/images/right-scissors.png';
                 right_side.style.right = '100px';
                 right_side.style.top = '100px';
                 
@@ -60,10 +60,10 @@ let user_option = (option)=>{
                     notice.innerHTML = `You Win`;
                     setTimeout(() => {
                         notice.style.visibility = "hidden";
-                        left_side.src = '/assets/images/left-fist.png'
+                        left_side.src = 'assets/images/left-fist.png'
                         left_side.style.left = '0px';
                         left_side.style.top = '0px';
-                        right_side.src = '/assets/images/right-fist.png'
+                        right_side.src = 'assets/images/right-fist.png'
                         right_side.style.right = '0px';
                         right_side.style.top = '0px';
                         left_side.style.removeProperty('animation');
@@ -78,10 +78,10 @@ let user_option = (option)=>{
             left_side.style.animation = 'ani1 0.5s 5 alternate ease-out';
             right_side.style.animation = 'ani2 0.5s 5 alternate ease-out';
             setTimeout(() => {
-                left_side.src = '/assets/images/left-rock.png';
+                left_side.src = 'assets/images/left-rock.png';
                 left_side.style.left = '100px';
                 left_side.style.top = '100px';
-                right_side.src = '/assets/images/right-rock.png';
+                right_side.src = 'assets/images/right-rock.png';
                 right_side.style.right = '100px';
                 right_side.style.top = '100px';
 
@@ -90,10 +90,10 @@ let user_option = (option)=>{
                     notice.innerHTML = `Draw`;
                     setTimeout(() => {
                         notice.style.visibility = "hidden";
-                        left_side.src = '/assets/images/left-fist.png'
+                        left_side.src = 'assets/images/left-fist.png'
                         left_side.style.left = '0px';
                         left_side.style.top = '0px';
-                        right_side.src = '/assets/images/right-fist.png'
+                        right_side.src = 'assets/images/right-fist.png'
                         right_side.style.right = '0px';
                         right_side.style.top = '0px';
                         left_side.style.removeProperty('animation');
@@ -111,10 +111,10 @@ let user_option = (option)=>{
             left_side.style.animation = 'ani1 0.5s 5 alternate ease-out';
             right_side.style.animation = 'ani2 0.5s 5 alternate ease-out';
             setTimeout(() => {
-                left_side.src = '/assets/images/left-paper.png';
+                left_side.src = 'assets/images/left-paper.png';
                 left_side.style.left = '100px';
                 left_side.style.top = '100px';
-                right_side.src = '/assets/images/right-scissors.png';
+                right_side.src = 'assets/images/right-scissors.png';
                 right_side.style.right = '100px';
                 right_side.style.top = '100px';
 
@@ -123,10 +123,10 @@ let user_option = (option)=>{
                     notice.innerHTML = `You Lose`;
                     setTimeout(() => {
                         notice.style.visibility = "hidden";
-                        left_side.src = '/assets/images/left-fist.png'
+                        left_side.src = 'assets/images/left-fist.png'
                         left_side.style.left = '0px';
                         left_side.style.top = '0px';
-                        right_side.src = '/assets/images/right-fist.png'
+                        right_side.src = 'assets/images/right-fist.png'
                         right_side.style.right = '0px';
                         right_side.style.top = '0px';
                         left_side.style.removeProperty('animation');
@@ -141,10 +141,10 @@ let user_option = (option)=>{
             left_side.style.animation = 'ani1 0.5s 5 alternate ease-out';
             right_side.style.animation = 'ani2 0.5s 5 alternate ease-out';
             setTimeout(() => {
-                left_side.src = '/assets/images/left-paper.png';
+                left_side.src = 'assets/images/left-paper.png';
                 left_side.style.left = '100px';
                 left_side.style.top = '100px';
-                right_side.src = '/assets/images/right-rock.png';
+                right_side.src = 'assets/images/right-rock.png';
                 right_side.style.right = '100px';
                 right_side.style.top = '100px';
 
@@ -153,10 +153,10 @@ let user_option = (option)=>{
                     notice.innerHTML = `You Win`;
                     setTimeout(() => {
                         notice.style.visibility = "hidden";
-                        left_side.src = '/assets/images/left-fist.png'
+                        left_side.src = 'assets/images/left-fist.png'
                         left_side.style.left = '0px';
                         left_side.style.top = '0px';
-                        right_side.src = '/assets/images/right-fist.png'
+                        right_side.src = 'assets/images/right-fist.png'
                         right_side.style.right = '0px';
                         right_side.style.top = '0px';
                         left_side.style.removeProperty('animation');
@@ -171,10 +171,10 @@ let user_option = (option)=>{
             left_side.style.animation = 'ani1 0.5s 5 alternate ease-out';
             right_side.style.animation = 'ani2 0.5s 5 alternate ease-out';
             setTimeout(() => {
-                left_side.src = '/assets/images/left-paper.png';
+                left_side.src = 'assets/images/left-paper.png';
                 left_side.style.left = '100px';
                 left_side.style.top = '100px';
-                right_side.src = '/assets/images/right-paper.png';
+                right_side.src = 'assets/images/right-paper.png';
                 right_side.style.right = '100px';
                 right_side.style.top = '100px';
 
@@ -183,10 +183,10 @@ let user_option = (option)=>{
                     notice.innerHTML = `Draw`;
                     setTimeout(() => {
                         notice.style.visibility = "hidden";
-                        left_side.src = '/assets/images/left-fist.png'
+                        left_side.src = 'assets/images/left-fist.png'
                         left_side.style.left = '0px';
                         left_side.style.top = '0px';
-                        right_side.src = '/assets/images/right-fist.png'
+                        right_side.src = 'assets/images/right-fist.png'
                         right_side.style.right = '0px';
                         right_side.style.top = '0px';
                         left_side.style.removeProperty('animation');
@@ -204,10 +204,10 @@ let user_option = (option)=>{
             left_side.style.animation = 'ani1 0.5s 5 alternate ease-out';
             right_side.style.animation = 'ani2 0.5s 5 alternate ease-out';
             setTimeout(() => {
-                left_side.src = '/assets/images/left-scissors.png';
+                left_side.src = 'assets/images/left-scissors.png';
                 left_side.style.left = '100px';
                 left_side.style.top = '100px';
-                right_side.src = '/assets/images/right-rock.png';
+                right_side.src = 'assets/images/right-rock.png';
                 right_side.style.right = '100px';
                 right_side.style.top = '100px';
 
@@ -216,10 +216,10 @@ let user_option = (option)=>{
                     notice.innerHTML = `You Lose`;
                     setTimeout(() => {
                         notice.style.visibility = "hidden";
-                        left_side.src = '/assets/images/left-fist.png'
+                        left_side.src = 'assets/images/left-fist.png'
                         left_side.style.left = '0px';
                         left_side.style.top = '0px';
-                        right_side.src = '/assets/images/right-fist.png'
+                        right_side.src = 'assets/images/right-fist.png'
                         right_side.style.right = '0px';
                         right_side.style.top = '0px';
                         left_side.style.removeProperty('animation');
@@ -234,10 +234,10 @@ let user_option = (option)=>{
             left_side.style.animation = 'ani1 0.5s 5 alternate ease-out';
             right_side.style.animation = 'ani2 0.5s 5 alternate ease-out';
             setTimeout(() => {
-                left_side.src = '/assets/images/left-scissors.png';
+                left_side.src = 'assets/images/left-scissors.png';
                 left_side.style.left = '100px';
                 left_side.style.top = '100px';
-                right_side.src = '/assets/images/right-paper.png';
+                right_side.src = 'assets/images/right-paper.png';
                 right_side.style.right = '100px';
                 right_side.style.top = '100px';
 
@@ -246,10 +246,10 @@ let user_option = (option)=>{
                     notice.innerHTML = `You Win`;
                     setTimeout(() => {
                         notice.style.visibility = "hidden";
-                        left_side.src = '/assets/images/left-fist.png'
+                        left_side.src = 'assets/images/left-fist.png'
                         left_side.style.left = '0px';
                         left_side.style.top = '0px';
-                        right_side.src = '/assets/images/right-fist.png'
+                        right_side.src = 'assets/images/right-fist.png'
                         right_side.style.right = '0px';
                         right_side.style.top = '0px';
                         left_side.style.removeProperty('animation');
@@ -264,10 +264,10 @@ let user_option = (option)=>{
             left_side.style.animation = 'ani1 0.5s 5 alternate ease-out';
             right_side.style.animation = 'ani2 0.5s 5 alternate ease-out';
             setTimeout(() => {
-                left_side.src = '/assets/images/left-scissors.png';
+                left_side.src = 'assets/images/left-scissors.png';
                 left_side.style.left = '100px';
                 left_side.style.top = '100px';
-                right_side.src = '/assets/images/right-scissors.png';
+                right_side.src = 'assets/images/right-scissors.png';
                 right_side.style.right = '100px';
                 right_side.style.top = '100px';
 
@@ -276,10 +276,10 @@ let user_option = (option)=>{
                     notice.innerHTML = `Draw`;
                     setTimeout(() => {
                         notice.style.visibility = "hidden";
-                        left_side.src = '/assets/images/left-fist.png'
+                        left_side.src = 'assets/images/left-fist.png'
                         left_side.style.left = '0px';
                         left_side.style.top = '0px';
-                        right_side.src = '/assets/images/right-fist.png'
+                        right_side.src = 'assets/images/right-fist.png'
                         right_side.style.right = '0px';
                         right_side.style.top = '0px';
                         left_side.style.removeProperty('animation');
